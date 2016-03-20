@@ -109,7 +109,7 @@
                         <a href="#">phpinfo</a>
                     </li>
                     <li>
-                        <a href="#">About</a>
+                        <a href="http://github.com/kenpb/phpinfo" target="_blank">About</a>
                     </li>
                 </ul>
                 <div class="col-sm-3 col-md-2 pull-right">
@@ -128,11 +128,11 @@
             </div>
         </div>
     </div>
-    
 </body>
 </html>
 
 <script>
+    /* Search stuff */
     $(document).ready(function() {
         $(".search").keyup(function () {
             var searchTerm = $(".search").val();
