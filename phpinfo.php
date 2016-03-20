@@ -81,8 +81,7 @@
                 echo "</table>";
                 return;
             }
-            $pattern = ',';
-            $replace = ', ';
+
             $my_array = preg_replace("/,([^\s])/", ", $1", $my_array);
             echo $my_array;
         }
